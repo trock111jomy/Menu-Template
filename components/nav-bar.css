@@ -1,0 +1,35 @@
+.nav-bar{
+    position: fixed;
+    overflow: hidden;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 -8px 0 -8px;
+    background-color: rgb(255,255,255);
+    padding-top: 30px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:2px 2px 2px rgba(0,0,0,.3);  
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    width:20%;
+    background-color: white;
+    padding-right:20px;
+}
+
+.white-button {
+    text-decoration: none;
+    color:black;
+    letter-spacing: 2px;
+    background-color:white;
+    padding: 10px;
+}
+
+.white-button:hover {
+background-color: rgba(128, 128, 128, 0.76);
+}
